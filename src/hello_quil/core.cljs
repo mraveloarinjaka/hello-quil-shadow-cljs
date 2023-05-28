@@ -33,7 +33,7 @@
       (q/ellipse x y 100 100))))
 
 ; this function is called in index.html
-(defn ^:export run-sketch []
+(defn run-sketch []
   (q/defsketch hello-quil
     :host "hello-quil"
     :size [500 500]
