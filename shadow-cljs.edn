@@ -1,0 +1,11 @@
+{:deps {:aliases [:cljs]}
+ :nrepl {:port 9000}
+ :dev-http {3000 "resources/public"}
+ :builds
+ {:app
+  {:target :esm
+   :output-dir "resources/public/js"
+   :asset-path "/js"
+   :compiler-options {:output-feature-set :es-next}
+   :devtools {:after-load hello-quil.core/run-sketch}
+   :modules {:main {:init-fn hello-quil.core/run-sketch}}}}}

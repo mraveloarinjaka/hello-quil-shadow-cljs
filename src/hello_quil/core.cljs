@@ -4,7 +4,7 @@
 
 (defn setup []
   ; Set frame rate to 30 frames per second.
-  (q/frame-rate 40)
+  (q/frame-rate 30)
   ; Set color mode to HSB (HSV) instead of default RGB.
   (q/color-mode :hsb)
   ; setup function returns initial state. It contains
@@ -19,7 +19,7 @@
 
 (defn draw-state [state]
   ; Clear the sketch by filling it with light-grey color.
-  (q/background 245)
+  (q/background 240)
   ; Set circle color.
   (q/fill (:color state) 255 255)
   ; Calculate x and y coordinates of the circle.
@@ -36,7 +36,7 @@
 (defn ^:export run-sketch []
   (q/defsketch hello-quil
     :host "hello-quil"
-    :size [300 300]
+    :size [500 500]
     ; setup function called only once, during sketch initialization.
     :setup setup
     ; update-state is called on each iteration before draw-state.
@@ -47,5 +47,8 @@
     ; fun-mode.
     :middleware [m/fun-mode]))
 
-; uncomment this line to reset the sketch:
-; (run-sketch)
+(comment
+
+(run-sketch)
+  
+  (comment))
