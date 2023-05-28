@@ -1,8 +1,8 @@
 # hello-quil
 
-A Quil sketch designed to ... well, that part is up to you.
-The base project has been created from [quil-cljs](https://github.com/quil/quil-templates) template.
-Then the build process has been migrated from figwheel to shadow-cljs.
+A [Quil](http://quil.info/) sketch designed to ... well, that part is up to you.
+
+The base project has been created from [quil-cljs](https://github.com/quil/quil-templates) template then the build process has been migrated from [figwheel](https://figwheel.org/) to [shadow-cljs](https://github.com/thheller/shadow-cljs).
 
 ## Usage
 
