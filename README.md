@@ -8,7 +8,7 @@ Then the build process has been migrated from figwheel to shadow-cljs.
 
 Run `npx shadow-cljs watch app` in your terminal. Wait for a while until you see `[:app] Build completed.`. Open [localhost:3000](http://localhost:3000) in your browser.
 
-You can use this while developing your sketch. Whenever you save your source files the browser will automatically refresh everything, providing you with quick feedback. For more information about Figwheel, check the [Figwheel repository on GitHub](https://github.com/bhauman/lein-figwheel).
+You can use this while developing your sketch. Whenever you save your source files the browser will automatically refresh everything, providing you with quick feedback. For more information about shadow-cljs, check the [shadow-cljs user guide](https://shadow-cljs.github.io/docs/UsersGuide.html#_introduction).
 
 ## Publishing your sketch
 
