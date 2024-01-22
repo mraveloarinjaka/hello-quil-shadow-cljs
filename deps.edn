@@ -1,5 +1,5 @@
 {:paths ["src"]
- :deps {quil/quil {:mvn/version "3.1.0"}}
+ :deps {quil/quil {:mvn/version "4.3.1563"}}
  :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
              "clojars" {:url "https://clojars.org/repo/"}}
  :aliases {:dev {:jvm-opts ["-Dlogback.configurationFile=logback.xml" "--illegal-access=deny"]}
