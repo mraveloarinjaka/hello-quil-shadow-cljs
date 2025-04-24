@@ -12,6 +12,6 @@
     "p5": "^1.6.0"
   },
   "devDependencies": {
-    "shadow-cljs": "^2.23.3"
+    "shadow-cljs": "^3.0.0"
   }
 }
