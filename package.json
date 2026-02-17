@@ -9,7 +9,7 @@
   "author": "mandimby.raveloarinjaka@gmail.com",
   "license": "Eclipse Public License",
   "dependencies": {
-    "p5": "^1.6.0"
+    "p5": "^2.0.0"
   },
   "devDependencies": {
     "shadow-cljs": "^3.0.0"
